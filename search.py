@@ -38,3 +38,4 @@ print("---")
 ragoutput = ollama.generate(model="phi3", prompt=prompt, stream=False)
 
 print(f"Answered with RAG: {ragoutput['response']}")
+#sol
